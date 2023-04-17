@@ -107,7 +107,7 @@ body {
 }
 
 header {
-  background: url(/img/bg1.png) no-repeat center;
+  background: url(./img/bg1.png) no-repeat center;
   background-size: 85rem;
   padding: 13rem 0 12.9rem;
   position: inherit;
@@ -119,49 +119,24 @@ header {
 
 @keyframes slide {
   0% {
-    background-image: url(/img/bg1.png);
+    background-image: url(./img/bg1.png);
   }
   25% {
-    background-image: url(/img/bg2.png);
+    background-image: url(./img/bg2.png);
   }
   50% {
-    background-image: url(/img/bg3.png);
+    background-image: url(./img/bg3.png);
   }
   75% {
-    background-image: url(/img/bg4.png);
+    background-image: url(./img/bg4.png);
   }
   100% {
-    background-image: url(/img/bg1.png);
+    background-image: url(./img/bg1.png);
   }
-}
-
-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 1;
 }
 header .container {
   position: relative;
   z-index: 1;
-}
-header h5 {
-  margin-bottom: 1rem;
-  position: relative;
-  display: inline-block;
-}
-header h5::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: var(--light);
-}
-header h1 {
-  margin-bottom: 3rem;
 }
 .container {
   padding-right: 15px;
