@@ -107,7 +107,7 @@ body {
 }
 
 header {
-  background: url(/img/bg1.jpg) no-repeat center;
+  background: url(/img/bg1.png) no-repeat center;
   background-size: 85rem;
   padding: 13rem 0 12.9rem;
   position: inherit;
@@ -119,7 +119,7 @@ header {
 
 @keyframes slide {
   0% {
-    background-image: url(/img/bg1.jpg);
+    background-image: url(/img/bg1.png);
   }
   25% {
     background-image: url(/img/bg2.png);
