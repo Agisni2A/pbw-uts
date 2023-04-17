@@ -107,7 +107,7 @@ body {
 }
 
 header {
-  background: url(bg1.jpg) no-repeat center;
+  background: url(./img/bg1.jpg) no-repeat center;
   background-size: 85rem;
   padding: 13rem 0 12.9rem;
   position: inherit;
@@ -119,19 +119,19 @@ header {
 
 @keyframes slide {
   0% {
-    background-image: url(bg1.png);
+    background-image: url(./img/bg1.jpg);
   }
   25% {
-    background-image: url(bg2.png);
+    background-image: url(./img/bg2.png);
   }
   50% {
-    background-image: url(bg3.png);
+    background-image: url(./img/bg3.png);
   }
   75% {
-    background-image: url(bg4.png);
+    background-image: url(./img/bg4.png);
   }
   100% {
-    background-image: url(bg1.png);
+    background-image: url(./img/bg1.png);
   }
 }
 
